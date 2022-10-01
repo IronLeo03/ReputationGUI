@@ -1,0 +1,26 @@
+#Allows users to give reputation of offline players
+#From spigotmc's documentation: "This method may involve a blocking web request to get the UUID for the given name."
+#Meaning: This may lag out your server if abused.
+allowOfflineReputation: true
+offlinePlayerFeedback: "The player is not currently online"
+tooManyArgsError: "Syntax: /rep [who]"
+add1Feedback: "&aYou gave +1 reputation to the selected player"
+remove1Feedback: "&cYou gave -1 reputation to the selected player"
+selfFeedback: "&cYou may not alter your own reputation"
+receiveFeedback: true
+receivePositiveFeedback: "&aYou gained &21 reputation!"
+followerFeedback: " &7[&l&4?&7]"
+receiveNegativeFeedback: "&cYou lost &41 reputation!"
+gui:
+  title: "&l&7[&cRep&l&dGui&l&7]"
+  repLore: "Reputation: %reputation%"
+  remove1:
+    material: RED_WOOL
+    name: "&4-1"
+    lore:
+      - "&7Click to &cdecrease&7 the player reputation by 1"
+  add1:
+    material: GREEN_WOOL
+    name: "&a+1"
+    lore:
+      - "&7Click to &aincrease&7 the player reputation by 1"

@@ -1,0 +1,9 @@
+name: RepGui
+description: A gui to rate the players!
+version: 1.0
+main: me.ironleo03.reputationgui.ReputationGuiPlugin
+softdepend: [PlaceholderAPI]
+api-version: 1.19
+commands:
+  rep:
+  setrep:
